@@ -2,6 +2,10 @@
   border: 1px solid black;
   padding: 30px;
   display: inline-block;
+  position: relative;
+  left: 20px;
+  align-items: center;
+  
 }
 
 .black {
@@ -9,13 +13,13 @@
 }
 
 .green {
-background-color: green;
+  background-color: green;
 }
 .orange {
-    background-color:orange ;
+  background-color: orange;
 }
 .blue {
-    background-color: blue;
+  background-color: blue;
 }
 
 body {
@@ -25,7 +29,27 @@ body {
 h1 {
   color: black;
 }
-main {
+.pixel {
+  background-color: white;
+  border: 1px solid;
+  display: block;
+  width: 40px;
+  height: 40px;
+  box-shadow: chartreuse 2px 2px 2px;
+  position: relative;
+  left: 80px;
+  
+  
+  
+}
+#pixel-board {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 220px;
 
+}
 
+.color:hover {
+transition: 0.6s;
+transform: scale(1.1);
 }
