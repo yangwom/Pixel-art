@@ -1,9 +1,9 @@
 
 #color-palette {
-    justify-content: space-between;
-    display:inline-block;
-    position: relative;
-    left: 502px;
+  width: 220px;
+  margin: 0 auto;
+    
+    
 }
 
 .color {
@@ -17,10 +17,12 @@
 
 .black {
   background-color: black;
+  box-shadow: chartreuse 1px 1px;
 }
 
 .green {
   background-color: green;
+  
 }
 .orange {
   background-color: orange;
