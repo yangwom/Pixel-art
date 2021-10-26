@@ -1,4 +1,0 @@
-[i].classList.add('selected')
-
-    });
-}
