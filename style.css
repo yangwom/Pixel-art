@@ -2,6 +2,7 @@
 #color-palette {
   width: 220px;
   margin: 0 auto;
+  
     
     
 }
@@ -58,6 +59,7 @@ h1 {
   flex-wrap: wrap;
   max-width: 220px;
   margin:auto;
+  margin-top: 10px;
   
 
 }
@@ -65,4 +67,10 @@ h1 {
 .color:hover {
 transition: 0.6s;
 transform: scale(1.1);
+}
+
+#clear-board {
+ position: relative;
+ left: 321px;
+ margin-top: 5px;
 }

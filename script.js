@@ -29,6 +29,8 @@ colorPai.addEventListener('click', function (e) {
     e.target.style.backgroundColor = selected.getAttribute('value');
 });
 
+
+
 //O método getAttribute () retorna o valor do atributo com o nome especificado de um elemento.
 
 // 9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco.
@@ -42,6 +44,17 @@ colorPai.addEventListener('click', function (e) {
 //     Verifica se o texto do botão é 'Limpar'
 
 //     Verifica se ao clicar no botão, o quadro de pixels é totalmente preenchido de branco
+
+let bntLimpar = document.querySelector('#clear-board');
+bntLimpar.addEventListener('click',(e) =>{
+ for (let index = 0; index < 25; index++) {
+     pixelart[index].style.backgroundColor = 'white'
+     
+ }
+
+});
+
+
 
 
 
